@@ -5,6 +5,7 @@
 
 html {
   font-size: 100%;
+  scroll-behavior: smooth;
 }
 body {
     color: #24292e;
@@ -23,6 +24,11 @@ header{
     top:0;
 
 }
+/* a.anchor {
+    display: block;
+    padding-top: 80px;
+    margin-top: -80px;
+} */
 header ul{
     display:flex;
 }
@@ -67,6 +73,7 @@ h3{
 }
 section{
     padding:30px 10%;
+
 } 
 #about h2{
     margin-top: 40px;
@@ -156,6 +163,7 @@ h3 {
     justify-content: space-between;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-bottom: 20px;
 }
 #works img{
     width: 40%;
