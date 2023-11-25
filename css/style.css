@@ -76,8 +76,8 @@ section{
     
 }
 #about img{
-    width: 100px;
-    height:100px;
+    width: 150px;
+    height:150px;
     border-radius:50%;
     object-fit: cover;
     border-style: solid;
@@ -152,11 +152,11 @@ h3 {
     display:flex;
     justify-content: space-between;
 }
-#work img{
+#works img{
     width: 50%;
 }
 .work-description{
-    margin-left:10px;
+    margin-left:20px;
     width:50%;
 }
 .work-description p{
