@@ -144,7 +144,7 @@ h3 {
     border-radius:16px;
     margin-bottom: 20px;
     padding: 30px;
-    margin: 50px; 
+    /* margin: 50px;  */
     box-sizing: border-box;
 }
 /* Works */
@@ -153,11 +153,11 @@ h3 {
     justify-content: space-between;
 }
 #work img{
-    width: 30%;
+    width: 50%;
 }
 .work-description{
     margin-left:10px;
-    width:70%;
+    width:50%;
 }
 .work-description p{
     margin-top:10px;
