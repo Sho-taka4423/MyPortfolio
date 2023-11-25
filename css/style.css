@@ -97,7 +97,7 @@ section{
 a,a:visited {
     color: #24292e;
     text-decoration: none;
-}
+} 
 img {
     max-width: 100%;
 }
@@ -148,6 +148,9 @@ h3 {
     box-sizing: border-box;
 }
 /* Works */
+#works h2{
+    margin-top: 40px;
+}
 .work-item{
     display:flex;
     justify-content: space-between;
@@ -155,15 +158,40 @@ h3 {
     padding-bottom: 10px;
 }
 #works img{
-    width: 50%;
+    width: 40%;
 }
 .work-description{
     margin-left:20px;
-    width:50%;
+    width:60%;
 }
 .work-description p{
     margin-top:10px;
 }
+.gakusai_web{
+    position: relative;
+    display: inline-block;
+    transition: .3s;
+    font-weight: bold;
+
+  }
+  
+.gakusai_web::after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: #31aae2;
+    transition: .3s;
+    transform: translateX(-50%);
+  }
+.gakusai_web:hover{
+    color : #ff7043;
+  }
+.gakusai_web:hover::after{
+    width: 100%;
+  }
 /* Contact */
 #contact{
     background-color: #EBDFE0;
